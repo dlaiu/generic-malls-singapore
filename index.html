@@ -19,12 +19,12 @@
         }
 
         .content {
-            max-width: 800px;
+            max-width: 850px;
             margin: auto;
         }
 
         .header {
-            /* padding: 3em 0; */
+            /* padding: 3em 0 1em 0; */
         }
 
         a {
@@ -54,12 +54,12 @@
         h1 {
             font-family: 'Lora', Georgia, serif;
             font-weight: bold;
-            font-size: 3em;
+            font-size: 2.5em;
             line-height: 1.1;
         }
 
         .subhead {
-            font-family: 'Lora', Georgia, serif;
+            font-family: 'Lora', Georgia, serif, italic;
         }
 
         img {
@@ -70,6 +70,8 @@
             line-height: 1.6;
             margin: 0;
             padding-bottom: 1.2em;
+            text-align: justify;
+                text-justify: inter-word;
         }
 
         ul {
@@ -129,30 +131,45 @@
     </style>
     </head>
     <body>
+        
         <div class="content">
             <div class="header">
-                <h1>Bored of the malls in S'pore? Try going downtown</h1>
-                <i><p class="subhead">Bet you $5 you haven't heard of "Nick Vina Artisan Bakery".</p></i>
+                <h1>Bored of the malls in Singapore? Try going downtown</h1>
+                <p class="subhead">Bet you $5 you haven't heard of "Nick Vina Artisan Bakery".</p>
             </div>
             <div class="byline">
                 <p>By <a href="https://dlaiu.github.io">Darryl Laiu</a></p>
             </div>
 
-            <p>About 8 months ago, my ex-colleague at Mothership let me help her with a very important investigative project.</p>
-            <p>We wanted to find out <b><i>Why do all malls in Singapore feel the same?</i></b></p>
+            <p>Much has been written about the "American Shopping Mall", some even comparing it to a temple for capitalism in America.</p>
 
-            <p>You can watch the video <a href="https://www.youtube.com/embed/Sk0CPkw3gLE?si=mBxlKAw0lt9hi9_a">here:</a></p>
+            <p>Similar things could be said about the role of the shopping mall in Singapore.</p>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Sk0CPkw3gLE?si=mBxlKAw0lt9hi9_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>A lot of Singapore life and core experiences centre around the Singapore mall. From a young age, many kids have to pass through a mall before they head home from school, effectively making it a de facto hangout spot.</p>
 
-            <!-- <iframe title="The biggest pumpkins, by state (Copy)" aria-label="Bar Chart" id="datawrapper-chart-MLQxw" src="https://datawrapper.dwcdn.net/MLQxw/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-            </script> -->
+            <img src="imgs/junction-8-capitaland.jpg" alt="generic photo of Junction 8, a mall in Singapore." style="display: block; margin: 0 auto; padding-bottom: 10px; max-width: 100%; max-height: 400px; align-self: center;">
 
-            <p>At the time, my ex-colleague manually collated the list of shops from 44 malls in Singapore.</p>
+            <p>As adults, we don't really grow out of this. In fact, the need for malls in Singapore expands as much of our life — whether they be hobbies or necessities — can be found in the air-conditioned Singaporean shopping mall.</p>
 
-            <p>I've always wanted to revisit the project — especially now that I'm newly armed with coding and data analysis skills.</p>
+            <p>But over the past few years, something has become more and more apparent: many malls in Singapore just <i>feel</i> the same.</p>
 
-            <p>Here's what I found:</p>
+            <img src="imgs/mall-meme.png" alt="a meme of Pam from The Office holding up two photos of two malls in Singapore, with the bottom frame saying 'They're the same picture'" style="display: block; margin: 0 auto; padding-bottom: 10px; max-width: 100%; max-height: 400px; align-self: center;">
+
+            <p>About 8 months ago, my ex-colleague and I set out to find out why.</p>
+
+            <p>You can see what we found out <a href="https://www.youtube.com/embed/Sk0CPkw3gLE?si=mBxlKAw0lt9hi9_a">here:</a></p>
+
+            <div class="video-container" style="display: block; margin: 0 auto; padding-bottom: 10px; align-self: center;">
+                <iframe width="650" height="382" src="https://www.youtube.com/embed/Sk0CPkw3gLE?si=mBxlKAw0lt9hi9_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <p>But I knew even then, we were just scratching the surface. For the video, my colleague manually compiled the list of shops in 44 malls.</p>
+
+            <p>I've always wanted to revisit the project to expand it.</p>
+
+            <p>So now, newly armed with coding and data analysis skills (and prompt of "Something you miss from home" with a deadline of two weeks), I set out to dive even further down the rabbit hole.</p>
+
+            <h2>Here's what I found:</h2>
 
             <iframe title="If you want to find more unique things, go downtown" aria-label="Map" id="datawrapper-chart-Yu9vb" src="https://datawrapper.dwcdn.net/Yu9vb/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="775" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
             </script>
@@ -237,7 +254,7 @@
         </div>
         <div class="footer">
             <div class="content">
-                <p>For this story, I collated the shop listings from 70 malls in Singapore. You can check out my dataset and my code <a href="https://github.com/jsoma/page-templates/blob/main/story.html">here</a>.
+                <p>For this story, I collated the shop listings from 70 malls in Singapore. You can check out my dataset and my code <a href="https://github.com/dlaiu/generic-malls-singapore">here</a>.
             </div>
         </div>
     </body>
