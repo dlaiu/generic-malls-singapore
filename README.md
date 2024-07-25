@@ -59,7 +59,7 @@ I then explored the data by plotting a few graphs with both plotly and datawrapp
 The analysis can be found in the notebook `analysis.ipynb`.
 
 ## Learning Points
-I think I could have managed this project a lot better. If I had planned out the scope of the projet earlier, I think I could have definitely completed scraping of more malls for the dataset. 
+I think I could have managed this project a lot better. If I had planned out the scope of the project earlier, I think I could have definitely completed scraping of more malls for the dataset. 
 
 I heavily relied on Generative AI for this project. I learnt that it can be extremely helpful with quick turnaround projects like this, especially when you need a quick grasp of the data, or need to quickly implement something you understand the logic of. 
 
